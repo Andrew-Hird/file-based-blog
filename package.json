@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "tape tests/**/*-test.js",
-    "start": "node-inspector & nodemon --debug server"
+    "debug": "node-inspector & nodemon --debug server",
+    "start": "node server"
   },
   "keywords": [
     "blog",
@@ -20,6 +21,7 @@
     "tape": "^4.6.0"
   },
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0"
   }

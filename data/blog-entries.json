@@ -1,15 +1,19 @@
-[
-  {
+[{
     "id": 1,
-    "title": "Title of entry 1",
+    "title": "Callbacks",
     "date": "2016-09-07",
-    "author": "Sally Stevenson",
-    "content": "This is the body of the first post."
-  }, {
+    "author": "Daisy the dog",
+    "content": "TIL that callbacks not what I bark in response to clapping. Holla."
+}, {
     "id": 2,
-    "title": "Title of entry 2",
+    "title": "Async",
     "date": "2016-09-06",
-    "author": "Joe Johnson",
-    "content": "This is the body of the second post."
-  }
-]
+    "author": "JTimberlake",
+    "content": "TIL Async is what NSYNC WOULD have been called if we lived in Silicon Valley."
+}, {
+    "id": 3,
+    "title": "Yoga",
+    "date": "2016-09-06",
+    "author": "Anonymous",
+    "content": "*breathe*"
+}]

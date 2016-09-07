@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="../styles.css">
   <title></title>
 </head>
 <body>
-
+<h1>Today I learned...</h1>
+{{#each entries}}
+<div class="blog">
+<h2>{{title}}</h2>
+<em>{{date}}</em>
+<p>{{content}}</p>
+<em>{{author}}</em>
+</div>
+{{/each}}
+<a href="/"><button>GO HOME</button></a>
+<a href="/new.html"><button>WRITE NEW POST</button></a>
 </body>
 </html>

@@ -1,0 +1,49 @@
+* {
+  font-family: fantasy;
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: lightblue;
+}
+
+
+textarea {
+  width: 500px;
+  height: 300px;
+}
+
+input, textarea {
+  display: block;
+  margin: auto;
+  text-align: left;
+}
+
+h1 {
+padding: 20px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+button, input.submit {
+  background-color: grey;
+  color: white;
+}
+
+.blog {
+  border-style: solid;
+  width: 500px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: lavender;
+}
+
+p.about {
+  background-color: lightblue;
+}
+h2, em, p {
+  background-color: lavender;
+}
