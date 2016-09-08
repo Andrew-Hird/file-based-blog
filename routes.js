@@ -33,6 +33,6 @@ function newPost(req, res) {
     content: req.body.content
   }
   db.saveEntry(nextPost, function (err) {
-    res.redirect('/')
+    res.redirect('posts')
   })
 }
