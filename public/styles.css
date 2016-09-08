@@ -47,3 +47,9 @@ p.about {
 h2, em, p {
   background-color: lavender;
 }
+
+@media (max-width: 500px) {
+  .blog {
+    width: 320px;
+  }
+}
