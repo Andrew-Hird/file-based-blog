@@ -50,6 +50,6 @@ h2, em, p {
 
 @media (max-width: 500px) {
   .blog {
-    width: 320px;
+    width: 300px;
   }
 }
